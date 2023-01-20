@@ -606,11 +606,9 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
-  .container, .container-sm {
-    max-width: 540px;
-  }
-  .show1-sm {
+@media (max-width: 500px) {
+
+.show1-sm {
     display: block !important; 
 }
 .show2-sm {
@@ -619,6 +617,13 @@ pre code {
 .show3-sm {
   display: none !important; 
 }
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+
 }
 
 @media (min-width: 768px) {
